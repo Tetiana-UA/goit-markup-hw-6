@@ -689,7 +689,6 @@ ul {
   gap: 72px;
 }
 .logo-wrap {
-  /*margin-right: 120px;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -716,7 +715,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
-  width: 268px;
+  width: 264px;
 }
 .social-media {
   display: flex;
@@ -732,7 +731,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--white);
-  margin-bottom: 16px;
 }
 .social-media-list {
   display: flex;

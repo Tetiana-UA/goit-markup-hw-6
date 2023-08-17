@@ -203,9 +203,9 @@
       padding: 100px 0;
     }
     .footer-box {
-      
-      gap: 0;
+            gap: none;
       flex-wrap: nowrap;
+      
     }
 
     .footer-form {
@@ -213,17 +213,19 @@
       gap: 24px;
     }
     .logo-wrap {
-      margin-right: 120px;
+            margin-right: 120px;
+    }
+    .footer-logo-link{
+      display: inline-block;
     }
       .social-media {
         margin-right: 80px;
+        
       }
     
   
   .footer-email {
-    align-items: flex-start;
+    justify-content: center;
   }
-  .footer-input {
-    width: 264px;
-  }
+  
 }
