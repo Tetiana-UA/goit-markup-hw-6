@@ -1,0 +1,87 @@
+/*! -----Adaptive--------*/
+
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 426px;
+  }
+  .team > .container{
+    max-width: 294px;
+  }
+}
+
+/*!----------768px--------------*/
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 766px;
+  }
+  .advantage-list {
+    gap: 72px 24px;
+  }
+  .advantage-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .team > .container{
+    max-width: 582px;
+  }
+  .team-list {
+    gap: 64px 24px;
+}
+.team-item {
+   width: calc((100% - 24px ) / 2);
+}
+.customers > .container{
+    max-width: 582px;
+}
+.customers-list {
+    gap: 72px 24px;
+}
+.customers-item {
+    width: calc((100% - 24px * 2 ) / 3);
+}
+
+}
+
+/*!---------------1166px-------*/
+
+@media screen and (min-width: 1166px) {
+  .container {
+    max-width: 1166px;
+  }
+  .team > .container{
+    max-width: 1166px;
+  }
+  .advantage-item {
+    width: calc((100% - 24px * 3) / 4);
+  }
+  .advantage-box-icon {
+  width: 100%;
+  height: 112px;
+  border-radius: 4px;
+  background: var(--cloud);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  }
+  
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+  }
+  .team-item {
+    width: calc((100% - 24px * 3) / 4);
+  }
+  .customers > .container{
+    max-width: 1166px;
+}
+  .customers {
+    padding: 96px 0;
+  }
+  .customers-list {
+    gap: 24px;
+  }
+  .customers-item {
+  width: calc((100% - 24px * 5) / 6);
+  }
