@@ -10,6 +10,14 @@
   .hero-title {
   font-size: 36px;
 }
+.mob-adress-link-tel {
+  color: var(--iris);
+  font-size: 36px;
+}
+.mob-menu-media-list {
+  
+  gap: 56px;
+}
 
 /*!----------768px--------------*/
 
@@ -66,6 +74,23 @@
   margin-bottom: 36px;
   max-width: 496px;
 
+}
+.menu-open-btn {
+  display: none;
+}
+.header-navigation-list {
+  display: flex;
+  gap: 40px;
+}
+.header-adress-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.header-adress-link {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 
 /*!---------------1166px-------*/
@@ -136,4 +161,17 @@
     margin-bottom: 48px;
     max-width: 496px;
   }
+  .header-adress-list {
+
+  flex-direction: row;
+  gap: 40px;
+}
+.header-adress-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.work {
+  display: block;
+}
 }

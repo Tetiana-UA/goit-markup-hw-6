@@ -187,6 +187,14 @@ ul {
 /*--------Menu-Mobile-----------*/
 .menu-open-btn {
   margin-left: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border: none;
+  background-color: transparent;
+}
+.menu-open-icon {
+  stroke-width: 3px;
+  stroke: var(--heavy-blue-modal);
 }
 
 .mob-menu {
@@ -200,16 +208,36 @@ ul {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
   padding: 80px 35px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
+}
+.mob-menu-top {
 }
 .menu-close-btn {
   display: block;
   margin-left: auto;
   margin-bottom: 32px;
+
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  background-color: var(--cornflower);
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
 }
 .mob-menu-navigation-list {
+  margin-bottom: 50px;
 }
-.list {
-}
+
 .mob-menu-navigation-item:not(:last-child) {
   margin-bottom: 40px;
 }
@@ -220,28 +248,58 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link {
-}
-.current {
+
+.mob-menu-navigation-link:hover,
+.mob-menu-navigation-link:focus {
+  color: var(--ocean);
 }
 .mob-menu-adress {
 }
 .mob-menu-adress-list {
 }
-.mob-menu-adress-item {
+.mob-adress-item-tel {
+  margin-bottom: 40px;
 }
-.mob-menu-adress-link {
+.mob-adress-link-tel {
+  color: var(--iris);
+  font-size: 26px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
+.mob-adress-item-email {
+  margin-bottom: 48px;
+}
+.mob- adress-link-email {
+  color: var(--slate);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
 .mob-menu-media-list {
   display: flex;
-  gap: 56px;
+  gap: 36px;
+  justify-content: center;
 }
 .mob-menu-media-item {
 }
 .mob-menu-media-link {
+  background-color: var(--iris);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .mob-menu-media-icon {
+  fill: var(--cloud);
 }
 
 /*!---------BODY-STUDIO-----------*/
@@ -347,6 +405,7 @@ ul {
 
 /*---------Work 3 section------------*/
 .work {
+  display: none;
   padding-bottom: 120px;
 }
 .work-title {
