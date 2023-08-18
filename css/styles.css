@@ -200,7 +200,7 @@ ul {
 .mob-menu {
   position: fixed;
   top: 0;
-  z-index: 20px;
+  z-index: 20;
   width: 100vw;
   height: 100vh;
   background: var(--white);
@@ -397,7 +397,7 @@ ul {
 }
 .advantage-text {
   font-size: 16px;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
@@ -843,7 +843,7 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   background-color: var(--diary);
-  width: 408px;
+  width: 290px;
   min-height: 584px;
   border-radius: 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
