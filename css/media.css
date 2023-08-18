@@ -111,6 +111,7 @@
     }
     .logo-wrap {
       align-items: flex-start;
+      margin-bottom: 72px;
     }
     .social-media {
       align-items: flex-start;
@@ -171,7 +172,9 @@
       margin-bottom: 48px;
       max-width: 496px;
     }
-
+    .advantage-list {
+      gap: 24px;
+    }
     .advantage-item {
       width: calc((100% - 24px * 3) / 4);
     }
@@ -219,23 +222,30 @@
     .footer-box {
       gap: 0;
       flex-wrap: nowrap;
+      /*flex-direction: row;*/
+      
       
     }
     .footer-form {
       flex-direction: row;
       gap: 24px;
+      
     }
     .logo-wrap {
       margin-right: 120px;
+      /*align-items: flex-start;*/
     }
-    .footer-logo-link{
-      display: inline-block;
-    }
+    
     .social-media {
       margin-right: 80px;
+      /*align-items: flex-start;*/
     }
     .footer-email {
       justify-content: center;
+      /* align-items: flex-start;*/
     }
+    /*.footer-input {
+      width: 264px;
+    }*/
 }
 
